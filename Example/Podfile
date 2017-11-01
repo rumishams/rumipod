@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'rumipod_Example' do
+  pod 'rumipod', :path => '../'
+
+  target 'rumipod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
