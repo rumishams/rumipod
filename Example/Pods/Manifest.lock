@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - rumipod (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - rumipod (from `../`)
+
+EXTERNAL SOURCES:
+  rumipod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  rumipod: d5d8ba967d4d361e876dba396e683f5236e54831
+
+PODFILE CHECKSUM: a6cdc3180852f2032e3b0dab652f9251db295abf
+
+COCOAPODS: 1.4.0.beta.1

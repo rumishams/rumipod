@@ -1,0 +1,6 @@
+framework module rumipod {
+  umbrella header "rumipod-umbrella.h"
+
+  export *
+  module * { export * }
+}
