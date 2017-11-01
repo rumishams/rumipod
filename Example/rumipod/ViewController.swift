@@ -8,15 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController
+public class ViewController: UIViewController
 {
 
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
     }
+    
+    public func returnName() ->String
+    {
+        return "Maulana jalaluddin Rumi"
+    }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
