@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		579C5E65FA39BDF58332765D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		579C5E65FA39BDF58332765D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* rumipod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rumipod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		9184F1FAE48C436D21EF4B16 /* Pods-rumipod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rumipod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-rumipod_Example/Pods-rumipod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4B6077EB6A23FD46A7D4243 /* Pods-rumipod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rumipod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rumipod_Tests/Pods-rumipod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7858ABA6EEBBCE9E7CBC098 /* Pods-rumipod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rumipod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-rumipod_Tests/Pods-rumipod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D7C50E74124FA11C56EC3D30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D82D988FD76FDFBB6D7A3DAA /* rumipod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = rumipod.podspec; path = ../rumipod.podspec; sourceTree = "<group>"; };
+		D7C50E74124FA11C56EC3D30 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D82D988FD76FDFBB6D7A3DAA /* rumipod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = rumipod.podspec; path = ../rumipod.podspec; sourceTree = "<group>"; };
 		E46D9EF5571E579BCA8FAE0C /* Pods-rumipod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rumipod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rumipod_Example/Pods-rumipod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E61931B4BA243C62F4E0546F /* Pods_rumipod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rumipod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 283LR247NQ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -520,6 +521,7 @@
 			baseConfigurationReference = E46D9EF5571E579BCA8FAE0C /* Pods-rumipod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 283LR247NQ;
 				INFOPLIST_FILE = rumipod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -535,6 +537,7 @@
 			baseConfigurationReference = 9184F1FAE48C436D21EF4B16 /* Pods-rumipod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 283LR247NQ;
 				INFOPLIST_FILE = rumipod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
